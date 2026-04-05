@@ -3,46 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ROOTSEC | Tecnología</title>
+    <title>Root Sec | Cybersecurity</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <header>
-        <h1>ROOTSEC</h1>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Servicios</a>
-            <a href="#">Blog</a>
-            <a href="#">Contacto</a>
+        <nav class="navbar">
+            <h1 class="logo">ROOT<span>SEC</span></h1>
+            <ul class="menu">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- HERO -->
     <section class="hero">
-        <h2>Seguridad & Tecnología</h2>
-        <p>Explorando el mundo de la ciberseguridad, redes y tecnología moderna.</p>
-        <button>Explorar</button>
+        <div class="hero-content">
+            <h2>Protegemos tu mundo digital</h2>
+            <p>Especialistas en ciberseguridad, hacking ético y protección de datos.</p>
+            <a href="#" class="btn">Contáctanos</a>
+        </div>
     </section>
 
-    <div class="container">
-        <div class="card">
-            <h3>🔐 Ciberseguridad</h3>
-            <p>Protección de sistemas, análisis de vulnerabilidades y buenas prácticas.</p>
+    <!-- SERVICIOS -->
+    <section class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Seguridad de Redes</h3>
+                <p>Protección avanzada contra ataques y amenazas externas.</p>
+            </div>
+            <div class="card">
+                <h3>Hacking Ético</h3>
+                <p>Identificamos vulnerabilidades antes que los atacantes.</p>
+            </div>
+            <div class="card">
+                <h3>Monitoreo 24/7</h3>
+                <p>Supervisión continua de tus sistemas críticos.</p>
+            </div>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>🌐 Redes</h3>
-            <p>Configuración, monitoreo y optimización de infraestructuras de red.</p>
+    <!-- SOBRE NOSOTROS -->
+    <section class="about">
+        <div class="about-content">
+            <h2>Sobre Root Sec</h2>
+            <p>
+                Somos una empresa líder en ciberseguridad enfocada en proteger empresas 
+                contra amenazas digitales mediante soluciones innovadoras.
+            </p>
         </div>
+    </section>
 
-        <div class="card">
-            <h3>💻 Tecnología</h3>
-            <p>Últimas tendencias, herramientas y soluciones tecnológicas.</p>
-        </div>
-    </div>
+    <!-- CONTACTO -->
+    <section class="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 ROOTSEC - Todos los derechos reservados</p>
+        <p>© 2026 Root Sec - Todos los derechos reservados</p>
     </footer>
 
 </body>
